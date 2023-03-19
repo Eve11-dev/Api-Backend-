@@ -4,17 +4,17 @@ import { UpdateGenderDto } from './dto/update-gender.dto';
 const db =[
   {
   id:1,
-  name:'Hola',
+  name:'Masculino',
   
  },
  {
   id:2,
-  name:'JUan',
+  name:'Femenino',
   
  },
  {
   id:3,
-  name:'Hola',
+  name:'Otros',
  }
 ]
 

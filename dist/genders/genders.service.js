@@ -11,15 +11,15 @@ const common_1 = require("@nestjs/common");
 const db = [
     {
         id: 1,
-        name: 'Hola',
+        name: 'Masculino',
     },
     {
         id: 2,
-        name: 'JUan',
+        name: 'Femenino',
     },
     {
         id: 3,
-        name: 'Hola',
+        name: 'Otros',
     }
 ];
 let GendersService = class GendersService {

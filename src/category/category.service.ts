@@ -5,17 +5,17 @@ import { UpdateCategoryDto } from './dto/update-category.dto';
 const db =[
   {
   id:1,
-  name:'Panama',
+  name:'Camisa',
   
  },
  {
   id:2,
-  name:'Panama',
+  name:'Pantalon',
   
  },
  {
   id:3,
-  name:'Panama',
+  name:'Joyas',
  }
 ]
 @Injectable()

@@ -4,17 +4,17 @@ import { UpdateContryeDto } from './dto/update-contrye.dto';
 const db =[
   {
   id:1,
-  name:'Hola',
+  name:'Paris',
   
  },
  {
   id:2,
-  name:'JUan',
+  name:'Nicaragua',
   
  },
  {
   id:3,
-  name:'Hola',
+  name:'EEUU',
  }
 ]
 

@@ -4,17 +4,17 @@ import { UpdateBrandDto } from './dto/update-brand.dto';
 const db =[
   {
   id:1,
-  name:'Hola',
+  name:'Gucci',
   
  },
  {
   id:2,
-  name:'JUan',
+  name:'Prada',
   
  },
  {
   id:3,
-  name:'Hola',
+  name:'Nike',
  }
 ]
 

@@ -11,15 +11,15 @@ const common_1 = require("@nestjs/common");
 const db = [
     {
         id: 1,
-        name: 'Hola',
+        name: 'Gucci',
     },
     {
         id: 2,
-        name: 'JUan',
+        name: 'Prada',
     },
     {
         id: 3,
-        name: 'Hola',
+        name: 'Nike',
     }
 ];
 let BrandsService = class BrandsService {
