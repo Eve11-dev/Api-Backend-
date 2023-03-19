@@ -8,12 +8,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ContryesService = void 0;
 const common_1 = require("@nestjs/common");
+const db = [
+    {
+        id: 1,
+        name: 'Hola',
+    },
+    {
+        id: 2,
+        name: 'JUan',
+    },
+    {
+        id: 3,
+        name: 'Hola',
+    }
+];
 let ContryesService = class ContryesService {
     create(createContryeDto) {
         return 'This action adds a new contrye';
     }
     findAll() {
-        return `This action returns all contryes`;
+        return db;
     }
     findOne(id) {
         return `This action returns a #${id} contrye`;

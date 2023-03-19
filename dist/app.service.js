@@ -30,6 +30,12 @@ let AppService = class AppService {
     createCategory() {
         return { id: 3, name: 'Category 3' };
     }
+    getContry() {
+        return [
+            { id: 1, name: 'Contry 1' },
+            { id: 2, name: 'Contry 2' },
+        ];
+    }
 };
 AppService = __decorate([
     (0, common_1.Injectable)()

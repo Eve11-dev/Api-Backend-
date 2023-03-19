@@ -16,4 +16,8 @@ export declare class AppService {
         id: number;
         name: string;
     };
+    getContry(): {
+        id: number;
+        name: string;
+    }[];
 }

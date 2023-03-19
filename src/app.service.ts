@@ -28,4 +28,11 @@ export class AppService {
     return { id: 3, name: 'Category 3' };
   }
 
+  getContry() {
+    return [
+      { id: 1, name: 'Contry 1' },
+      { id: 2, name: 'Contry 2' },
+    ];
+  }
+
 }

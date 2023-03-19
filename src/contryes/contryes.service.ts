@@ -1,7 +1,22 @@
 import { Injectable } from '@nestjs/common';
 import { CreateContryeDto } from './dto/create-contrye.dto';
 import { UpdateContryeDto } from './dto/update-contrye.dto';
-
+const db =[
+  {
+  id:1,
+  name:'Hola',
+  
+ },
+ {
+  id:2,
+  name:'JUan',
+  
+ },
+ {
+  id:3,
+  name:'Hola',
+ }
+]
 
 @Injectable()
 export class ContryesService {
@@ -10,7 +25,7 @@ export class ContryesService {
   }
 
   findAll() {
-    return `This action returns all contryes`;
+    return db;
   }
 
   findOne(id: number) {

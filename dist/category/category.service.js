@@ -8,12 +8,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CategoryService = void 0;
 const common_1 = require("@nestjs/common");
+const db = [
+    {
+        id: 1,
+        name: 'Panama',
+    },
+    {
+        id: 2,
+        name: 'Panama',
+    },
+    {
+        id: 3,
+        name: 'Panama',
+    }
+];
 let CategoryService = class CategoryService {
     create(createCategoryDto) {
         return 'This action adds a new category';
     }
     findAll() {
-        return `This action returns all category`;
+        return db;
     }
     findOne(id) {
         return `This action returns a #${id} category`;
